@@ -38,3 +38,5 @@ python sample.py --out_dir=out-daily
 To allow sentences to end naturally, a punctuation_ids set is defined for punctuation filtering, and punctuation_ids is passed during text generation
 
 The generated text is written to the file out-daily/gen_daily.txt
+
+Part of the model files are loaded here：https://pan.quark.cn/s/a6a8fefcb29f
