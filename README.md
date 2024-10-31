@@ -35,6 +35,6 @@ python train.py config/train_daily.py
 python sample.py --out_dir=out-daily
 ```
 
-To allow sentences to end naturally, a punctuation_ids set is defined for punctuation filtering: punctuation_ids = {stoi['.'], stoi['?']}, and punctuation_ids is passed during text generation
+To allow sentences to end naturally, a punctuation_ids set is defined for punctuation filtering, and punctuation_ids is passed during text generation
 
 The generated text is written to the file out-daily/gen_daily.txt
